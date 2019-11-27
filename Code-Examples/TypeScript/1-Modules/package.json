@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "license": "ISC",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -17,6 +18,6 @@
     "@types/next": "^7.0.6",
     "@types/react": "^16.7.18",
     "@zeit/next-typescript": "^1.1.1",
-    "typescript": "^3.2.2"
+    "typescript": "^3.7.2"
   }
 }
