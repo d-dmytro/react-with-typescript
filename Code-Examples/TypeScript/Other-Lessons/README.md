@@ -32,3 +32,16 @@ Run the following command in this folder:
 ```
 npm i
 ```
+
+Then:
+
+```
+npm run build
+```
+
+This project has a "dev" mode. When you work on some file in the "src" directory you can see its output in the terminal whenever you save this file.
+To run this project in the "dev" mode, run:
+
+```
+npm run dev
+```

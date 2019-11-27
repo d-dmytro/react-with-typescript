@@ -25,7 +25,7 @@ function uppercaseFirstLetter(str: string | null) {
   }
 }
 
-console.log(uppercaseFirstLetter('hello'));
+//console.log(uppercaseFirstLetter('hello'));
 uppercaseFirstLetter(null);
 
 // Object
@@ -53,8 +53,8 @@ enum Color {
 }
 
 let myFavoriteColor: Color = Color.Blue;
-console.log(Color.Red, Color.Green, Color.Blue);
-console.log(Color['red']);
+//console.log(Color.Red, Color.Green, Color.Blue);
+//console.log(Color['red']);
 
 // Any
 let ANY: any;
@@ -63,7 +63,8 @@ ANY = 1;
 ANY = true;
 
 // Type Assertions
-const email = document.getElementById('email');
+const email =
+  typeof document !== 'undefined' ? document.getElementById('email') : null;
 
 if (email) {
   email.addEventListener('change', e => {

@@ -47,13 +47,13 @@ class FlyingRobot extends Robot {
 }
 
 const robot = new Robot('John');
-robot.askName();
+//robot.askName();
 
 const flyingRobot = new FlyingRobot('Jim', 2);
-flyingRobot.move(10);
+//flyingRobot.move(10);
 //console.log(`Flying robot's jetpack size is`, flyingRobot.name);
 flyingRobot.name = 'Kevin';
-console.log(`My name is ${flyingRobot.name}`);
+//console.log(`My name is ${flyingRobot.name}`);
 
 // Exporting something to turn this file into a module.
 export default 'Functions';
