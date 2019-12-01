@@ -1,3 +1,5 @@
+__This source code has been deprecated.__ Now, you can find the source code for the lectures from the "TypeScript" section in the "Resources" dropdown of the lectures.
+
 # Source Code for the TypeScript Section
 
 The source code for the TypeScript section is spread across 2 projects:
