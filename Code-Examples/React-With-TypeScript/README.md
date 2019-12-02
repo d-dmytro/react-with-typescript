@@ -1,4 +1,6 @@
-# Source Code for the React With TypeScript Section
+__This source code has been deprecated.__ Now, you can find the source code for the lectures from the "React With TypeScript" section in the "Resources" dropdown of the lectures.
+
+# [LEGACY] Source Code for the React With TypeScript Section
 
 This folder accompanies the section called **React With TypeScript**.
 
